@@ -1,0 +1,27 @@
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (1,'Ninomiya Squad','B',1,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (2,'Kageura Squad','B',2,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (3,'Ikoma Squad','B',3,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (4,'Tamakoma 2 Squad','B',4,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (5,'Oji Squad','B',5,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (6,'Azuma Squad','B',6,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (7,'Kuruma Squad','B',7,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (8,'Katori Squad','B',8,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (9,'Suwa Squad','B',9,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (10,'Arafune Squad','B',10,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (11,'Nasu Squad','B',11,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (12,'Tamakoma First','A',0,'Borders Strongest Unit',NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (13,'Black Trigger','S',1,'Black trigger holders',NULL);
+
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (1,'Yuma Kuga','Attacker',NULL,4);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (2,'Osamu Mikumo','Gunner',NULL,4);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (3,'Yoichi Jin','All Rounder',NULL,13);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (4,'Chika Amatori','Sniper',NULL,4);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (5,'Yuri Rind?','Operator',NULL,12);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (6,'Reiji Kizaki','All Rounder',NULL,12);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (7,'Kyosuke Karasuma','Gunner',NULL,12);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (8,'Kirie Konami','Attacker',NULL,12);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (9,'Shiori Usami','Operator',NULL,4);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (10,'Masataka Ninomiya',NULL,NULL,1);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (11,'Masato Kageura','Attacker',NULL,2);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (12,'Yuzuru Ema','Sniper',NULL,2);
+INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (13,'Hyuse','Attacker',NULL,4);
