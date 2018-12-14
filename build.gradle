@@ -23,11 +23,24 @@ repositories {
 	mavenCentral()
 }
 
+test {
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}
 
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
 	implementation('org.springframework.boot:spring-boot-starter-web')
 	implementation('org.flywaydb:flyway-core')
 	runtimeOnly('mysql:mysql-connector-java')
-	testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+	compile group: 'org.modelmapper', name: 'modelmapper', version: '0.7.5'
+
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile(group: 'org.powermock', name: 'powermock-core', version: '1.7.0')
+	testCompile( group: 'org.powermock', name: 'powermock-api-mockito2', version: '1.7.0')
+	testCompile( group: 'org.powermock', name: 'powermock-module-junit4', version: '1.7.0')
+
+	compileOnly 'org.projectlombok:lombok:1.18.0'
 }
