@@ -4,10 +4,8 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 import pcf.demo.dao.TeamDAO;
 
-import java.util.List;
-
 @Repository
-public interface TeamRepository extends CrudRepository {
+public interface TeamRepository extends CrudRepository<TeamDAO, Integer> {
 
-    List<TeamDAO> findAll();
+//    List<TeamDAO> findAll();
 }

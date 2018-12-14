@@ -1,4 +1,4 @@
-package pcf.demo.application;
+package pcf.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

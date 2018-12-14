@@ -10,6 +10,10 @@ buildscript {
 	}
 }
 
+plugins {
+	id 'net.ltgt.apt' version '0.10'
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
@@ -21,6 +25,11 @@ sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+}
+
+bootJar {
+	baseName = 'learn-pcf'
+	version = '1.0.0'
 }
 
 test {
@@ -42,5 +51,5 @@ dependencies {
 	testCompile( group: 'org.powermock', name: 'powermock-api-mockito2', version: '1.7.0')
 	testCompile( group: 'org.powermock', name: 'powermock-module-junit4', version: '1.7.0')
 
-	compileOnly 'org.projectlombok:lombok:1.18.0'
+	compileOnly 'org.projectlombok:lombok:1.18.4'
 }

@@ -19,13 +19,18 @@ public class TeamServiceImpl implements TeamService {
 
     private final ModelMapper modelMapper = new ModelMapper();
 
-    @Override
+//    @Override
     public List<TeamBean> getAll() {
         List<TeamDAO> daoList = new ArrayList<>();
         repo.findAll().forEach(daoList::add);
         return daoList.stream()
                 .map(this::convertToBean)
                 .collect(Collectors.toList());
+    }
+
+    public TeamBean getById(Integer teamId) {
+        TeamDAO dao = repo.findById(teamId).orElse(null);
+        return convertToBean(dao);
     }
 
     public TeamBean convertToBean(TeamDAO dao) {
@@ -35,4 +40,6 @@ public class TeamServiceImpl implements TeamService {
     public TeamDAO convertToDAO(TeamBean bean){
         return modelMapper.map(bean, TeamDAO.class);
     }
+
+
 }

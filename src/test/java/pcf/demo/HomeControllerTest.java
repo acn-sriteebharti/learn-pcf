@@ -12,10 +12,9 @@ import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import pcf.demo.application.PracticeApplication;
 import pcf.demo.bean.TeamBean;
 import pcf.demo.controller.HomeController;
-import pcf.demo.service.TeamService;
+import pcf.demo.service.TeamServiceImpl;
 
 import java.util.List;
 
@@ -33,7 +32,7 @@ public class HomeControllerTest {
     private ObjectMapper objectMapper;
 
     @MockBean
-    private TeamService teamService;
+    private TeamServiceImpl teamService;
 
     @Test
     public void test_getAllTeams() throws Exception {
