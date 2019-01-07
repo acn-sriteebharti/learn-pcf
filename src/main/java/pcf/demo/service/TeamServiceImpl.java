@@ -19,7 +19,6 @@ public class TeamServiceImpl implements TeamService {
 
     private final ModelMapper modelMapper = new ModelMapper();
 
-//    @Override
     public List<TeamBean> getAll() {
         List<TeamDAO> daoList = new ArrayList<>();
         repo.findAll().forEach(daoList::add);
