@@ -1,16 +1,23 @@
-INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (1,'Ninomiya Squad','B',1,NULL,NULL);
-INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (2,'Kageura Squad','B',2,NULL,NULL);
-INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (3,'Ikoma Squad','B',3,NULL,NULL);
-INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (4,'Tamakoma 2 Squad','B',4,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (1,'Ninomiya Squad','B',1,"Ninomiya Unit was formerly in A-Rank and part of the Expedition Force. However, due to Hatohara's unwillingness to shoot people, they were removed from the force. Afterwards, they were demoted to B-Rank, as punishment, when Hatohara broke the rules by giving Triggers to citizens. Like all other B-Rank Units, Ninomiya Unit was forbidden from participating during the Second Large-Scale Invasion unless all its members were present.",NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (2,'Kageura Squad','B',2,"They were formerly an A-Rank #6 unit which were demoted to B-Rank due to Kageura's violent behavior.",NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (3,'Ikoma Squad','B',3,"Ikoma Unit faces Tamakoma Second and Ōji Unit in Round 6. The members praise Tamakoma Second's performance in the recent matches.",NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (4,'Tamakoma 2 Squad','B',4,"The team with neighbours.",NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (5,'Oji Squad','B',5,NULL,NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (6,'Azuma Squad','B',6,NULL,NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (7,'Kuruma Squad','B',7,NULL,NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (8,'Katori Squad','B',8,NULL,NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (9,'Suwa Squad','B',9,NULL,NULL);
-INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (10,'Arafune Squad','B',10,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (10,'Arafune Squad','B',10,"An all snipers team.",NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (11,'Nasu Squad','B',11,NULL,NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (12,'Tamakoma First','A',0,'Borders Strongest Unit',NULL);
 INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (13,'Black Trigger','S',1,'Black trigger holders',NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (14,'Tachikawa Squad','A',1,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (15,'Fuyushima Squad','A',2,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (16,'Kazama Squad','A',3,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (17,'Kusakabe Squad','A',4,NULL,NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (18,'Arashiyama Squad','A',5,"The Arashiyama Unit is a team led by Jun Arashiyama. They are consistently ranked #05 because they act as the face of Border, appearing on TV broadcasts, besides missions.",NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (19,'Kako Squad','A',6,"The Kako Unit is an all-female team,led by Nozomi Kako. Kako's main requirement for recruiting a member to the team is that they're a talented person whose surname starts with the K.",NULL);
+INSERT INTO wt_teams(id,team_name,rank_no,position_no,team_desc,image) VALUES (20,'Miwa Squad','A',7,NULL,NULL);
 
 INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (1,'Yuma Kuga','Attacker',NULL,4);
 INSERT INTO wt_members(id,member_name,skill,image,team_id) VALUES (2,'Osamu Mikumo','Gunner',NULL,4);
